@@ -42,26 +42,19 @@ const GlobalStyles = createGlobalStyle`
     display: block;
   }
 
-  main {
-    display: block;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-  }
-
   img {
     max-width: 100%;
     border-style: none;
     display: block;
     object-fit: cover;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
+  button:hover {
+    cursor: pointer;
   }
 `;
 
