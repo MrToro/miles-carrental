@@ -17,7 +17,6 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    background-color: #000;
   }
 
   body {
